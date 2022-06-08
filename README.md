@@ -33,6 +33,12 @@ or if you have the credentials and profile already set up you can just export th
 export AWS_PROFILE=<name of profile>
 ```
 
+or if you have AWS CLI tools, you can run the following command to get started:
+
+```
+aws configure
+
+
 Now you can clone this git repo.
 
 ### S3
