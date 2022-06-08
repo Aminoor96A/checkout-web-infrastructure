@@ -79,9 +79,9 @@ First you need to apply changes to some variables to create an AWS certificate t
 Commands to apply once the updates are completed:
 
 ```
-terraform init <br/>
-terraform plan --out plan <br/>
-terraform apply plan <br/>
+terraform init 
+terraform plan --out plan 
+terraform apply plan 
 ```
 
 ### VPC 
@@ -99,9 +99,9 @@ Update the following variables if required:
 Commands to apply once the updates are completed:
 
 ```
-terraform init <br/>
-terraform plan --out plan <br/>
-terraform apply plan <br/>
+terraform init 
+terraform plan --out plan 
+terraform apply plan 
 ```
 
 ### ECS 
@@ -121,7 +121,7 @@ Update the following variables if required:
 Commands to apply once the updates are completed:
 
 ```
-terraform init <br/>
-terraform plan --out plan <br/>
-terraform apply plan <br/>
+terraform init 
+terraform plan --out plan 
+terraform apply plan 
 ```
