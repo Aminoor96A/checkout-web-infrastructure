@@ -59,9 +59,9 @@ The variables that need to be changed are summarised in the table below:
 Commands to apply once the updates are completed:
 
 ```
-terraform init <br/>
-terraform plan --out plan <br/>
-terraform apply plan <br/>
+terraform init 
+terraform plan --out plan 
+terraform apply plan 
 ```
 
 ### ACM (Amazon Certificate Manager)
