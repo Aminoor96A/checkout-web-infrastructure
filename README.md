@@ -37,7 +37,7 @@ or if you have AWS CLI tools, you can run the following command to get started:
 
 ```
 aws configure
-
+```
 
 Now you can clone this git repo.
 
@@ -59,9 +59,9 @@ The variables that need to be changed are summarised in the table below:
 Commands to apply once the updates are completed:
 
 ```
-terraform init
-terraform plan --out plan
-terraform apply plan
+terraform init <br/>
+terraform plan --out plan <br/>
+terraform apply plan <br/>
 ```
 
 ### ACM (Amazon Certificate Manager)
@@ -79,9 +79,9 @@ First you need to apply changes to some variables to create an AWS certificate t
 Commands to apply once the updates are completed:
 
 ```
-terraform init
-terraform plan --out plan
-terraform apply plan
+terraform init <br/>
+terraform plan --out plan <br/>
+terraform apply plan <br/>
 ```
 
 ### VPC 
@@ -99,9 +99,9 @@ Update the following variables if required:
 Commands to apply once the updates are completed:
 
 ```
-terraform init
-terraform plan --out plan
-terraform apply plan
+terraform init <br/>
+terraform plan --out plan <br/>
+terraform apply plan <br/>
 ```
 
 ### ECS 
@@ -121,7 +121,7 @@ Update the following variables if required:
 Commands to apply once the updates are completed:
 
 ```
-terraform init
-terraform plan --out plan
-terraform apply plan
+terraform init <br/>
+terraform plan --out plan <br/>
+terraform apply plan <br/>
 ```
